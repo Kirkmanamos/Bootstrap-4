@@ -1,0 +1,25 @@
+.container-fluid {
+  background-color: #6C2EB0;
+  color: bisque;
+  height: 5rem;
+  text-align: center;
+}
+
+.container {
+  background-color:#333;
+  color: bisque;
+  height: 5rem;
+  text-align: center;
+}
+
+.row {
+  background: #FF9232;
+  height:4.7rem;
+  color: black;
+}
+
+[class*="col-"] {
+  background-color: rgb(33, 179, 184);
+  height: 4.2rem;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}

@@ -15,13 +15,35 @@
     <title>Bootstrap 4 - Website </title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
+    <div class="container-fluid">
+      <h1>Bootstrap Fluid Container</h1>
+    </div>
+    <div class="container">
+      <h1>Bootstrap Container</h1>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <p>This a row nested inside of a fluid container.</p>
+        <p>It's floating to the top. This leaves a small amount of the fluid container protruding out of the bottom. </p> 
+        <p>Each sentence is inside of paragraph tags. </p>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">Column 1</div>
+        <div class="col-sm-6">Column 2</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-lg-4">Column 3</div>
+        <div class="col-sm-6 col-lg-4">Column 4</div>
+        <div class="col-sm-12 col-lg-4">Column 5</div>
+      </div>
+    </div>
   
 
 
 
-    
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
